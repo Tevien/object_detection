@@ -43,10 +43,16 @@ A random selection of 10 labelled images from the training set are shown below.
 ![image10](images/output10.png)
 
 The class distribution in the dataset is shown below:
-![imageclass](images/class_dist.png)
+| | |
+| --- | --: | 
+| Frequency | ![imageclass](images/class_dist.png) | 
+| | Class distribution |
 
 The distribution of the amount of instances of class 1 in each image is shown below:
-![imagepop](images/class1_pop.png)
+| | |
+| --- | --: | 
+| Frequency | ![imagepop](images/class1_pop.png) |
+| | Class 1 population distribution |
 
 
 #### Cross validation
@@ -89,3 +95,6 @@ The table of performance is shown below for small, medium, and large objects:
 | ------- | ------ | ----- | ----- |
 | mAP | 0.01 | 0.16 | 0.50 |
 | Recall | 0.05 | 0.25 | 0.66 |
+
+Examples of augmented training images are shown below:
+![image_loss](images/augments.png)
