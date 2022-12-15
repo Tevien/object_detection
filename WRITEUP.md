@@ -67,8 +67,12 @@ The training metrics consist of the:
 - Localization loss: related to the overlap of the detected bounding box and the labeled box.
 - Regularization loss: This is the L1 regularisation term as the sum of the weights.
 
-The loss curves for the reference experiment is shown below:
+The loss curves for the reference experiment are shown below:
 ![image_loss](images/loss_comp_ref.png)
+
+The metrics for the reference pipeline are shown below:
+![image_loss](images/ref_precision.png)
+![image_loss](images/ref_recall.png)
 
 The blue points in the loss curves from the validation set can be seen to be in good agreement with the training data, showing no signs of overfitting.
 
@@ -85,8 +89,12 @@ In order to improve the performance, the following improvements were tried:
 
 The former was found to improve performance.
 
-The loss curves for the improved pipeline is shown below:
+The loss curves for the improved pipeline are shown below:
 ![image_loss](images/loss_exp2.png)
+
+The metrics for the imporoved pipeline are shown below:
+![image_loss](images/exp2_precision.png)
+![image_loss](images/exp2_recall.png)
 
 The blue points in the loss curves from the validation set can be seen to be in good agreement with the training data, showing no signs of overfitting.
 
